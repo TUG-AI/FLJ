@@ -347,3 +347,19 @@ footer {
         margin-bottom: 1rem;
     }
 }
+.form-group textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--cream-dark);
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: var(--cream);
+    resize: vertical;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--terracotta);
+    background: var(--white);
+}
