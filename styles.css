@@ -207,21 +207,18 @@ a:hover {
 
 /* Signup Section */
 .signup {
-    padding: 3rem 0;
-    background: var(--brown);
-    color: var(--cream);
+    padding: 2.5rem 0;
+    background: var(--cream-dark);
 }
 
 .signup h2 {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     margin-bottom: 0.5rem;
-    color: var(--cream);
 }
 
 .signup > .container > p {
     margin-bottom: 1.5rem;
-    color: var(--cream);
-    font-size: 1.1rem;
+    color: var(--text-light);
 }
 
 .signup-form {
@@ -367,9 +364,23 @@ footer {
     background: var(--white);
 }
 
+/* Details CTA */
+.details-cta {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--brown);
+}
+
+.details-cta a {
+    color: var(--terracotta);
+    text-decoration: underline;
+}
+
 /* Details note */
 .details-note {
-    margin-top: 1.5rem;
+    margin-top: 0.75rem;
     text-align: center;
     color: var(--text-light);
     font-style: italic;
