@@ -75,7 +75,7 @@
        <section class="signup" id="signup">
             <div class="container">
                 <h2>Sign Up</h2>
-                <p>Let us know which group works for you and we'll send you the details!</p>
+                <p>Join us in-person, online or both. Let us know where to send the details. We hope to see you soon!</p>
                 <form class="signup-form" action="https://formspree.io/f/mykwkekw" method="POST">
                     <div class="form-row">
                         <div class="form-group">
@@ -89,18 +89,14 @@
                     </div>
                     <div class="form-group">
                         <label>Which group?</label>
-                        <div class="radio-group">
-                            <label class="radio-label">
-                                <input type="radio" name="group" value="in-person" required>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="group[]" value="in-person">
                                 In-Person (Tuesdays)
                             </label>
-                            <label class="radio-label">
-                                <input type="radio" name="group" value="online">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="group[]" value="online">
                                 Online (Saturdays)
-                            </label>
-                            <label class="radio-label">
-                                <input type="radio" name="group" value="both">
-                                Both / Either
                             </label>
                         </div>
                     </div>
