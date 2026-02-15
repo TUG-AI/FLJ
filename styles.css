@@ -207,18 +207,21 @@ a:hover {
 
 /* Signup Section */
 .signup {
-    padding: 2.5rem 0;
-    background: var(--cream-dark);
+    padding: 3rem 0;
+    background: var(--brown);
+    color: var(--cream);
 }
 
 .signup h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    color: var(--cream);
 }
 
 .signup > .container > p {
     margin-bottom: 1.5rem;
-    color: var(--text-light);
+    color: var(--cream);
+    font-size: 1.1rem;
 }
 
 .signup-form {
