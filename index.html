@@ -38,26 +38,22 @@
 
         <section class="details">
             <div class="container">
-                <h2>When & Where</h2>
+                <h2>Two Ways to Join</h2>
                 <div class="details-grid">
                     <div class="detail-item">
-                        <strong>Dates</strong>
-                        <p>Tuesdays, February 17 – March 31</p>
+                        <strong>In-Person</strong>
+                        <p>Tuesdays, 6:30 – 8:00 pm<br>
+                        Feb 17 – Mar 31<br>
+                        Ann Arbor, MI</p>
                     </div>
                     <div class="detail-item">
-                        <strong>Time</strong>
-                        <p>6:30 – 8:00 pm</p>
-                    </div>
-                    <div class="detail-item">
-                        <strong>Place</strong>
-                        <p>The Royces' Home<br>
-                        <a href="https://maps.google.com/?q=4415+Crestline+Drive+Ann+Arbor+MI+48103" target="_blank">4415 Crestline Drive, Ann Arbor</a></p>
-                    </div>
-                    <div class="detail-item">
-                        <strong>Bring</strong>
-                        <p>Your copy of the book and an open heart</p>
+                        <strong>Online</strong>
+                        <p>Saturdays, 4:00 – 5:30 pm EST<br>
+                        Feb 21 – Apr 4<br>
+                        Via Google Meet</p>
                     </div>
                 </div>
+                <p class="details-note">Sign up below to get the address or meeting link.</p>
             </div>
         </section>
 
@@ -78,8 +74,8 @@
 
        <section class="signup" id="signup">
             <div class="container">
-                <h2>Interested?</h2>
-                <p>Let us know if you're thinking about joining us. No commitment - just helps us plan!</p>
+                <h2>Sign Up</h2>
+                <p>Let us know which group works for you and we'll send you the details!</p>
                 <form class="signup-form" action="https://formspree.io/f/mykwkekw" method="POST">
                     <div class="form-row">
                         <div class="form-group">
@@ -92,10 +88,27 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <label>Which group?</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="group" value="in-person" required>
+                                In-Person (Tuesdays)
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="group" value="online">
+                                Online (Saturdays)
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="group" value="both">
+                                Both / Either
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label for="question">Questions or comments? (optional)</label>
                         <textarea id="question" name="question" rows="3" placeholder="Anything you'd like to ask..."></textarea>
                     </div>
-                    <button type="submit" class="btn">I'm Interested!</button>
+                    <button type="submit" class="btn">Sign Me Up!</button>
                 </form>
             </div>
         </section>

@@ -363,3 +363,33 @@ footer {
     border-color: var(--terracotta);
     background: var(--white);
 }
+
+/* Details note */
+.details-note {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+/* Radio buttons */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.radio-label input[type="radio"] {
+    width: auto;
+    margin: 0;
+    accent-color: var(--terracotta);
+}
